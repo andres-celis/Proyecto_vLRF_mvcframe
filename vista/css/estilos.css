@@ -1,0 +1,435 @@
+
+.panel{
+    max-width: 100%;
+    margin: auto;
+    
+    padding: 10px;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.imagen{
+    height: 100px;
+    width: 140px;
+}
+
+nav button.close{
+  display: block;
+  position: -webkit-sticky;
+    position: sticky;
+  font-size: 10px;
+  width: 100px;
+  height: 40px;
+  
+  border: 1px solid #000;
+  left: 1295%;
+  bottom: 70%;
+  display:table-cell; float:none;
+}
+
+nav img.login{
+  display: block;
+  position: absolute;
+  font-size: 10px;
+  width: 50px;
+  height: 40px;
+  
+  border: 1px solid #000;
+  left: 93%;
+  bottom: 74%;
+  display:table-cell; float:none;
+    background-image: url(/mvcframe/vista/img/sgr.png); 
+    
+   
+  
+}
+.avatar_login{
+    background-image: url(/mvcframe/vista/img/business-person.png); 
+   background-size: 90px;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  border: none;
+}
+nav{
+    font-family: 'Century Gothic', sans-serif;
+    
+    
+}
+
+nav ul{
+    list-style-type: none;
+    background: rgb(219, 217, 217);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    /*position: fixed;*/
+  overflow: auto;
+  width: 100%;
+  display:table; 
+}
+
+nav ul li{
+  display:table-cell; float:none;
+    display: inline;
+    padding: 20px;
+    transition: all ease-in-out;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: rgb(168, 179, 26);
+}
+
+nav ul form{
+    display: inline-block;
+  color: #000;
+  padding: 0px 0px;
+  text-decoration: none;
+  margin: 0%;  
+  width: auto;
+  position: -webkit-sticky;
+    position: sticky;
+    left: 70%;
+}
+
+nav ul form input{
+    margin-right: 30px;
+    
+}
+
+.form-inline{
+    margin: 0%;
+}
+
+.atribuccion{
+    outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.atribuccion:link{
+    color: #265301;
+}
+
+.atribuccion:visited{
+    color: #7b2e8b
+}
+
+.atribuccion:focus{
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+
+.atribuccion:hover{
+    border-bottom: 1px solid;
+    background: #cdfeaa;
+}
+
+.atribuccion:active{
+    background: #265301;
+    color: #cdfeaa;
+}
+
+.form-control{
+    width: 250px;
+    display: inline-block;
+    text-decoration: none; 
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    right: 70%;
+    
+}
+
+.hide{
+    font-size: 22px;
+    padding: 16px;
+    
+    color: white;
+    cursor: pointer;
+    display: none;
+    background: url(/mvcframe/vista/img/person-g4c002adfd_1920.jpg);
+}
+
+
+@media only screen and (max-width:768px){
+    ul li{
+        width: 40%;
+        padding: 16px;
+        text-align: left;
+        display: block;
+    }
+    
+    .hide{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul form{
+       
+        padding: 16px;
+        text-align: left;
+        width: 150px;
+        
+    }
+
+    .form-control{
+        width: 50px;
+       
+        text-decoration: none; 
+        margin: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        left: 40%;
+        
+    }
+    input[type=search] {
+        width: 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+      
+      /* When the input field gets focus, change its width to 100% */
+      input[type=search]:focus {
+        width: 80px;
+      }
+
+    img.login{
+        display: block;
+        background-image: url(/mvcframe/vista/img/sgr.png); 
+        width: 40px;
+        height: 40px;
+        position: -webkit-sticky;
+        position: sticky;
+       
+      
+    }
+    
+}
+
+.text-center{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: url(/mvcframe/vista/img/person-g4c002adfd_1920.jpg);
+}
+
+
+
+.text-center{
+    text-align: center;
+    color: white;
+}
+table,tr,td{
+    border: 1px solid rgb(49, 0, 128);
+    
+}
+table{
+    width: 100%;
+}
+.btn{background: rgb(2, 0, 128);color: white;padding: 10px 20px;display: inline-block;text-decoration: none;
+
+}
+
+
+
+.inicio {
+    border: 1px solid #2e518b; 
+    font-family: 'Helvetica', sans-serif; 
+    padding: 5px; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    
+    border-radius: 20px; 
+    }
+    
+.enviar{
+    border: 1px solid #2e8b3d; 
+    font-family: 'Helvetica', sans-serif; 
+    padding: 10px; 
+    background-color: #7d8b2e; 
+    color: #ffffff; 
+    
+    text-transform: uppercase; 
+    
+    border-radius: 40px; 
+    }
+
+.regresar {
+        border: 1px solid #8b662e; 
+        font-family: 'Helvetica', sans-serif; 
+        padding: 5px; 
+        background-color: #8b442e; 
+        color: #ffffff; 
+        text-decoration: none; 
+        text-transform: uppercase; 
+        
+        border-radius: 20px; 
+}
+
+a.hiper{
+    background: rgb(2, 0, 128);color: white;padding: 10px 20px;display: inline-block;text-decoration: none; 
+}
+
+.hiper{
+    background: transparent;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button.ingreso {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  button.btn-outline-success my-2 my-sm-0 {
+    width: 30px; height:30px;
+  }
+
+  input[type=search] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=search]:focus {
+    width: 240px;
+  }
+
+  #myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+  }

@@ -1,0 +1,69 @@
+html {
+   /* background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: url(/css/fondo.png), #2196f3;
+    background: url(/css/fondo.png),
+      -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+    background: url(fondo.png),
+      linear-gradient(to left, #2196f3, #009688);*/
+  }
+/*
+h1 {
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+legend{
+    font-size: 40px;
+
+}*/
+
+fieldset{
+    max-width: 500px;
+}
+
+input{
+    min-height: 10px;
+    width: 1000px;
+    
+}
+
+#idComp{
+    min-height: 10px;
+    width: 500px;
+}
+
+textarea{
+    
+    width: 500px;
+}  
+#Edad{
+    width: 200px;
+}
+
+
+
+
+/*label{
+    max-width: 100px;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}*/
+
+/*button {
+    min-height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }

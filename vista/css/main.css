@@ -1,0 +1,45 @@
+a.regresar {
+border: 1px solid #8b662e; 
+font-family: 'Helvetica', sans-serif; 
+padding: 5px; 
+background-color: #8b442e; 
+color: #ffffff; 
+text-decoration: none; 
+text-transform: uppercase; 
+
+border-radius: 20px; 
+}
+a{
+    border: 1px solid #2e518b; 
+    font-family: 'Helvetica', sans-serif; 
+    padding: 2px; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    
+    border-radius: 3px; 
+}
+a.inicio {
+border: 1px solid #2e518b; 
+font-family: 'Helvetica', sans-serif; 
+padding: 5px; 
+background-color: #2e518b; 
+color: #ffffff; 
+text-decoration: none; 
+text-transform: uppercase; 
+
+border-radius: 20px; 
+}
+
+input.enviar{
+border: 1px solid #2e8b3d; 
+font-family: 'Helvetica', sans-serif; 
+padding: 10px; 
+background-color: #7d8b2e; 
+color: #ffffff; 
+
+text-transform: uppercase; 
+
+border-radius: 40px; 
+}
